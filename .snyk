@@ -84,3 +84,14 @@ patch:
   'npm:uglify-js:20150824':
     - jade > transformers > uglify-js:
         patched: '2016-07-29T23:00:15.905Z'
+  'npm:debug:20170905':
+    - compression > debug:
+        patched: '2017-09-26T23:39:12.674Z'
+    - method-override > debug:
+        patched: '2017-09-26T23:39:12.674Z'
+    - morgan > debug:
+        patched: '2017-09-26T23:39:12.674Z'
+    - helmet > connect > debug:
+        patched: '2017-09-26T23:39:12.674Z'
+    - helmet > connect > finalhandler > debug:
+        patched: '2017-09-26T23:39:12.674Z'
